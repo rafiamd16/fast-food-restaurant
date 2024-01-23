@@ -21,14 +21,14 @@ const navMenu = document.getElementById("nav-menu");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("hamburger-active");
-  navMenu.classList.toggle("hidden");
+  navMenu.classList.toggle("scale-0");
 });
 
 // klik di luar hamburger
 window.addEventListener("click", (e) => {
   if (e.target != hamburger && e.target != navMenu) {
     hamburger.classList.remove("hamburger-active");
-    navMenu.classList.add("hidden");
+    navMenu.classList.add("scale-0");
   }
 });
 
