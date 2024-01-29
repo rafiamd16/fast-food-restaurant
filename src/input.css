@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 body {
-  fon-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.font-style {
+  font-family: "Oswald", sans-serif;
 }
 
 .hamburger-line {
@@ -34,10 +38,6 @@ body {
 }
 
 #dark-toggle:checked ~ label div.toggle-circle {
-  @apply translate-x-3;
-}
-
-#dark-toggle2:checked ~ label div.toggle-circle2 {
   @apply translate-x-3;
 }
 

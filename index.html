@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/output.css" />
-    <title>Fast Food | Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fast Food | Rafi Ahmad</title>
     <script>
       if (
         localStorage.theme === "dark" ||
@@ -26,7 +32,7 @@
         <div class="flex items-center justify-between relative">
           <div class="px-4 flex items-center">
             <img src="dist/img/chef.png" alt="logo" width="60" class="mr-1" />
-            <a href="#home" class="font-bold text-lg py-6"
+            <a href="#home" class="font-bold text-lg py-6 font-style"
               ><span class="text-red-500">RAF</span
               ><span class="text-primary">FOOD</span></a
             >
@@ -121,17 +127,18 @@
             <h1
               class="text-4xl font-bold mb-3 sm:text-6xl text-dark dark:text-white"
             >
-              Welcome to the <span class="text-red-500">RAF</span
-              ><span class="text-primary">FOOD</span>
+              Welcome to the
+              <span class="text-red-500 font-style font-bold">RAF</span
+              ><span class="text-primary font-style font-bold">FOOD</span>
             </h1>
-            <p class="mb-4 font-medium leading-relaxed text-secondary">
+            <p class="mb-6 font-medium leading-relaxed text-secondary">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos voluptate est, deserunt nulla ipsum tenetur culpa quos
               expedita.
             </p>
             <a
               href="foods.html"
-              class="px-6 py-2 text-base bg-primary text-white hover:opacity-80 transition duration-300 ease-in-out rounded-full font-semibold"
+              class="px-7 py-3 text-base bg-primary text-white hover:opacity-80 transition duration-300 ease-in-out rounded-full font-semibold"
               >Order Now</a
             >
           </div>
@@ -261,7 +268,7 @@
           </h2>
           <div class="w-full flex flex-wrap items-center justify-center mt-3">
             <div
-              class="bg-white w-[300px] shadow-2xl m-4 rounded-lg overflow-hidden relative"
+              class="bg-white w-[300px] border shadow-2xl m-4 rounded-lg overflow-hidden relative"
             >
               <div class="w-full flex justify-center items-center">
                 <img
@@ -287,7 +294,7 @@
               </div>
             </div>
             <div
-              class="bg-white w-[300px] shadow-2xl m-4 rounded-lg overflow-hidden relative"
+              class="bg-white w-[300px] border shadow-2xl m-4 rounded-lg overflow-hidden relative"
             >
               <div class="w-full flex justify-center items-center">
                 <img
@@ -313,7 +320,7 @@
               </div>
             </div>
             <div
-              class="bg-white w-[300px] shadow-2xl m-4 rounded-lg overflow-hidden relative"
+              class="bg-white w-[300px] border shadow-2xl m-4 rounded-lg overflow-hidden relative"
             >
               <div class="w-full flex justify-center items-center">
                 <img
@@ -454,8 +461,8 @@
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
             <h2 class="text-white font-bold text-4xl mb-5">
-              <span class="text-red-500">RAF</span
-              ><span class="text-primary">FOOD</span>
+              <span class="text-red-500 font-style">RAF</span
+              ><span class="text-primary font-style">FOOD</span>
             </h2>
             <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
             <p>rafiahmad@gmail.com</p>
@@ -615,13 +622,13 @@
             </a>
           </div>
           <p class="font-medium text-xs text-slate-500 text-center">
-            Dibuat dengan <span class="text-pink-500">❤️</span> oleh
+            Created By
             <a
               href="https://instagram.com/bagas_zuxxy"
               target="_blank"
               class="font-bold text-primary"
               >Rafi Ahmad</a
-            >, menggunakan
+            >. | &copy; 2024. Menggunakan
             <a
               href="https://tailwindcss.com"
               target="_blank"
@@ -637,7 +644,7 @@
     <!-- back to top start -->
     <a
       href="#home"
-      class="h-14 w-14 bg-primary rounded-full fixed bottom-4 right-4 z-[9999] p-4 justify-center items-center hover:animate-pulse hidden"
+      class="h-14 w-14 font-style bg-primary rounded-full fixed bottom-4 right-4 z-[9999] p-4 justify-center items-center hover:animate-pulse hidden"
       id="to-top"
       ><span class="text-4xl">🔝</span>
     </a>

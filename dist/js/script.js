@@ -34,21 +34,10 @@ window.addEventListener("click", (e) => {
 
 // Darkmode toogle
 const darkToggle = document.querySelector("#dark-toggle");
-const darkToggle2 = document.querySelector("#dark-toggle2");
 const html = document.querySelector("html");
 
 darkToggle.addEventListener("click", () => {
   if (darkToggle.checked) {
-    html.classList.add("dark");
-    localStorage.theme = "dark";
-  } else {
-    html.classList.remove("dark");
-    localStorage.theme = "light";
-  }
-});
-
-darkToggle2.addEventListener("click", () => {
-  if (darkToggle2.checked) {
     html.classList.add("dark");
     localStorage.theme = "dark";
   } else {
