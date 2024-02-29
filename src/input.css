@@ -42,7 +42,7 @@ body {
 }
 
 .card {
-  @apply rounded-lg bg-white shadow-2xl m-3 text-secondary overflow-hidden hover:scale-[1.02] transition duration-300;
+  @apply rounded-lg bg-white shadow-2xl m-3 border text-secondary overflow-hidden hover:scale-[1.02] transition duration-300;
 }
 
 .card-img {
