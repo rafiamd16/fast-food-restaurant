@@ -780,6 +780,14 @@ video {
   width: 100%;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -1067,6 +1075,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
 }
 
 .text-2xl {
