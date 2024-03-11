@@ -24,9 +24,8 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("scale-0");
 });
 
-// klik di luar hamburger
 window.addEventListener("click", (e) => {
-  if (e.target != hamburger && e.target != navMenu) {
+  if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
     hamburger.classList.remove("hamburger-active");
     navMenu.classList.add("scale-0");
   }
